@@ -33,7 +33,7 @@ There are five scopes that spring provides to configure a bean :
  1. **Singleton**:
 
     Each time we ask for an istance of that bean from the application context , 
-    its returning the same bean for us .
+    it's returning the same bean for us .
     
     `AppConfig.class`:
     
@@ -77,16 +77,16 @@ There are five scopes that spring provides to configure a bean :
     
     ![Output]({{ "/assets/img/sample/Autowiring/output-1.png" | relative_url }})
     
-    As a result, we have the same address memory for both object: `Service1`,  `Service2`.
+    As a result, we have the same memory address for both objects: `Service1`,  `Service2`.
     > `Singleton` scope is the default scope of Spring.
                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    
-    >Some developers have a misunderstanding between Singleton in java and in spring:
+    >The difference between Singleton in java and in spring:
     
        ![Singleton Java Vs Singleton Spring]({{ "/assets/img/sample/Autowiring/Singleton-Java-Vs-Spring.png" | relative_url }})
 
    2. **Prototype**:
  
-       It gives us a unique bean per request or reference(`getbean()`) and it is opposite of singleton scope.
+       It gives us a unique bean per request or reference(`getbean()`) and it is the opposite of singleton scope.
    
        `AppConfig.class`:
    
@@ -112,11 +112,11 @@ There are five scopes that spring provides to configure a bean :
    
        ![Output]({{ "/assets/img/sample/Autowiring/output-2.png" | relative_url }})
 
-       As a result, The object `Service1` have different address memory with the object `Service2`.
+       As a result, The object `Service1` have different memory address with the object `Service2`.
        
    3. **Session**: 
  
-      Return new a bean per HTTP request. 
+      Return a new bean per HTTP request. 
   
    4. **Request**: 
    
@@ -124,7 +124,7 @@ There are five scopes that spring provides to configure a bean :
    
    5. **Global**: 
  
-      Return a single bean per application. So once to access it, it’s alive for the duration of that application, not just my visit to that application.
+      Return a single bean per application. So once to access it, it’s alive for the duration of that application.
 
    >The three last scopes: Session,Request and Global will be introduced in the future blog when we talk about Spring MVC.
 
@@ -185,7 +185,7 @@ That was all for this blog, I hope you enjoy it and you understood two technique
 that we have touched on. Therefore, In the next blog, we will explain spring 
 configuration using java with `stereotype annotations` and `advanced bean configuration`.
 
-Thank you for reading! If you enjoyed it, please clap upvote 👍 
+Thank you for reading! If you enjoyed it, please upvote 👍 
 it and don’t forget to share! 👍🤙
 
 
