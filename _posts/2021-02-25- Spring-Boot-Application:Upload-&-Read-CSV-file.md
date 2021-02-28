@@ -28,10 +28,11 @@ Link of dataset Orders : [source](https://www.wisdomaxis.com/technology/software
 
 ### Spring Boot Rest APIs for uploading CSV Files:
 
-As we know, we have a .csv file that contains Orders data as following:
+As we know, we have a `csv` file that contains **Orders** data as following:
 
 ````csv
 Order ID,Order Date,Order Quantity,Sales,Ship Mode,Profit,Unit Price,Customer Name,Customer Segment,Product Category
+
 3,10-13-2010,6,261.54,Regular Air,-213.25,38.94,Muhammed MacIntyre,Small Business,Office Supplies
 6,02-20-2012,2,6.93,Regular Air,-4.64,2.08,Ruben Dartt,Corporate,Office Supplies
 32,07-15-2011,26,2808.08,Regular Air,1054.82,107.53,Liz Pelletier,Corporate,Furniture
@@ -39,6 +40,7 @@ Order ID,Order Date,Order Quantity,Sales,Ship Mode,Profit,Unit Price,Customer Na
 32,07-15-2011,23,160.2335,Regular Air,-85.129,7.99,Liz Pelletier,Corporate,Technology
 ...
 ````
+
 
 
 We’re going create a Spring Boot Application that provides APIs for:
@@ -66,13 +68,8 @@ If we get a list of Orders, the `Spring Rest-API` will return:
 
 These are APIs to be exported:
 
-| Methods | URL  | Definition |
-|---|---|---|
-| POST  |  /api/csv/upload | upload a CSV File  |
-| GET  | /api/csv/orders | get a List of orders in H2 table  |
-| GET  | /api/csv/orders/findByCustomerName/{customerName}  | get orders by customer name from H2 table  |
-| GET  | /api/csv/orders/findByCustomerNameAndDate/{customerName}/{orderDate}  | get orders by customer name and date of order from H2 table  |
-| GET  | /api/csv/orders/findByProductCategoryAndMustHaveProfitPositive/{productCategory}  | get orders by product category when the profit was greater than 0 |
+ ![List of APIs]({{ "/assets/img/sample/Spring-boot-app-csv-file/img-6.png" | relative_url }})
+
 
 
 ##### Project Structure:
