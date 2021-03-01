@@ -1,7 +1,7 @@
 ---
-title: Spark SQL-Java Application: Read CSV file into Data Frame and Execute some Queries
+title: Spark SQL-Java Application:Read CSV file into Data Frame and Execute some Queries
 author: Abdennacer El-Maalem
-date: 2021-03-01 00:34:00 +0800
+date: 2021-02-27 09:34:00 +0800
 categories: [Blogging, JAVA, , Apache Spark]
 tags: [Apache Spark, Spark SQL, JAVA]
 toc: false
