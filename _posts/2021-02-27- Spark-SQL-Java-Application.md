@@ -44,7 +44,7 @@ These are queries to be exported:
 
 ##### Project Structure:
 
-![Project Structure]({{ "/assets/img/sample/Spring-boot-app-csv-file/img-2.png" | relative_url }})
+![Project Structure]({{ "/assets/img/sample/Spark-SQL-Java-Application/img-2.png" | relative_url }})
 
 
 ### Setup Dependencies on pom.xml:
@@ -72,7 +72,7 @@ After Adding the below dependencies on `pom.xml`, It will download all the requi
 
 I'd like to stop various ***INFO messages*** that are coming on the spark console to get just the result on the console without logging messages.
 
-![Project Structure]({{ "/assets/img/sample/Spring-boot-app-csv-file/img-3.png" | relative_url }})
+![Project Structure]({{ "/assets/img/sample/Spark-SQL-Java-Application/img-3.png" | relative_url }})
 
 I edit the `log4j.properties` file in order to stop these messages. Here are the contents of `log4j.properties`:
 
@@ -264,15 +264,15 @@ While executing each query , you will be able to see below its content in the co
 
 - Menu:
 
-![Menu]({{ "/assets/img/sample/Spring-boot-app-csv-file/img-result-1.png" | relative_url }})
+![Menu]({{ "/assets/img/sample/Spark-SQL-Java-Application/img-result-1.png" | relative_url }})
 
 - Second Query:
 
-![Second Query]({{ "/assets/img/sample/Spring-boot-app-csv-file/img-result-2.png" | relative_url }})
+![Second Query]({{ "/assets/img/sample/Spark-SQL-Java-Application/img-result-2.png" | relative_url }})
 
 - Fifth Query:
 
-![Fifth Query]({{ "/assets/img/sample/Spring-boot-app-csv-file/img-result-3.png" | relative_url }})
+![Fifth Query]({{ "/assets/img/sample/Spark-SQL-Java-Application/img-result-3.png" | relative_url }})
 
 
 ### Conclusion 🚀 🚀 🚀
