@@ -1,7 +1,7 @@
 ---
 title: Spark SQL-Java Application: Read CSV file into Data Frame and Execute some Queries
 author: Abdennacer El-Maalem
-date: 2021-02-26 00:34:00 +0800
+date: 2021-03-01 00:34:00 +0800
 categories: [Blogging, JAVA, , Apache Spark]
 tags: [Apache Spark, Spark SQL, JAVA]
 toc: false
@@ -288,11 +288,3 @@ If you want to test the examples above, you will find my Github code link:
 Link of dataset Orders : [source](https://www.wisdomaxis.com/technology/software/data/for-reports/Orders-With%20Nulls.xlsx)
 
 Thank you for reading! If you enjoyed it. Please upvote 👍 it and don’t forget to share! 👍🤙
-
- 
-
-
-
-
-
-
